@@ -3,7 +3,9 @@ const loginUserPromise = (email) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             const error = false;
+
             if (error) reject(new Error('error in login!'));
+            
             console.log('user logged!');
             resolve({
                 email
