@@ -13,6 +13,8 @@ Já sabemos que quando uma função assíncrona é chamada, ela retorna uma Prom
 https://www.maiconsilva.com/js-callbacks-promises-aw/
 
 ## Fetch API utilizando AXIOS
+Link API externa: https://jsonplaceholder.typicode.com/todos/1
+
 ### O que é o Axios?
 Axios é um cliente HTTP baseado-em-promessas para o node.js e para o navegador. É isomórfico (= pode rodar no navegador e no node.js com a mesma base de código). No lado do servidor usa o código nativo do node.js - o modulo http, enquanto no lado do cliente (navegador) usa XMLHttpRequests.
 ### Como instalar? 
